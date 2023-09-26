@@ -52,6 +52,15 @@ $SourceManager = new SourceManager;
 	$SourceManager->linkResource("css", "plugins", DEVELOPMENT);
 
 	?>
+	
+	<style>
+	  body {
+	    background-color: lightgray;
+	    background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/29/Tuolumne_Meadow_Panorama%2C_Yosemite_10-18_%2845909157861%29.jpg");
+	    background-size: cover;
+	  }
+	</style>
+	
 </head>
 
 <body>
