@@ -131,7 +131,7 @@ class User {
 				"activeProject" => "",
 				"lastLogin" => false,
 				"permissions" => ["read", "write"],
-				"userACL" => "full"
+				"userACL" => ["/var/www/html/ftp/2324/$username"]
 			);
 
 			Common::saveJSON("users", $this->users);
