@@ -72,7 +72,7 @@
 		"": "Duplicate",
 		"name": "Enter new name:",
 		"file": "File Duplicated",
-		"folder": "Folder Duplicated"
+		"folder": "Directory Duplicated"
 	},
 	"preview": "Preview",
 	"outsideWorkspace": "File located outside of workspace.",
@@ -358,8 +358,8 @@
 	"userList": "User List",
 
 	"folder": {
-		"": "Folder",
-		"invalid": "Invalid Folder"
+		"": "directory",
+		"invalid": "Invalid Directory"
 	},
 
 	"directory": {
@@ -381,7 +381,7 @@
 	"fileUpload": "Upload File",
 	"filesUpload": "Upload Files",
 
-	"folderNew": "New Folder",
+	"folderNew": "New Directory",
 
 	"path": {
 		"": "Path",
@@ -516,7 +516,7 @@
 
 
 	"NothingInYourClipboard": "Nothing in Your Clipboard",
-	"folderNameOrAbsolutePath": "Folder Name Or Absolute Path",
+	"folderNameOrAbsolutePath": "Directory Name Or Absolute Path",
 
 	"noOpenFilesOrSelect": "No Open Files or Selected Text",
 

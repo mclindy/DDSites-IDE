@@ -858,7 +858,7 @@
 		},
 
 		createFolder: function(anchor) {
-			self.openCreate(anchor, 'folder');
+			self.openCreate(anchor, 'directory'); // orig value = 'folder'
 		},
 
 		//////////////////////////////////////////////////////////////////////80
@@ -866,6 +866,9 @@
 		//////////////////////////////////////////////////////////////////////80
 		openCreate: function(anchor, type) {
 			anchor.type = type;
+			if (anchor.type == 'directory') {   //////////////////////////80
+			  anchor.type = 'folder';           // Added by G.L.
+			}                                   //////////////////////////80
 			self.activeAnchor = anchor;
 			atheos.modal.load(250, {
 				target: 'filemanager',
