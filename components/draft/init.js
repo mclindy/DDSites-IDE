@@ -19,8 +19,8 @@
 
 	atheos.draft = {
 
-		enabled: true,
-		interval: 300000,
+		enabled: false,
+		interval: 5100000,
 		verbose: false,
 
 		throttle: null,

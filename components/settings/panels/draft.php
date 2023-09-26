@@ -32,6 +32,7 @@
 				<option value="60000"><?php echo i18n("time_minute_single", 1); ?></option>
 				<option value="300000" selected><?php echo i18n("time_minute_plural", 5); ?></option>
 				<option value="600000"><?php echo i18n("time_minute_plural", 10); ?></option>
+				<option value="5100000"><?php echo i18n("time_minute_plural", 85); ?></option>
 			</select>
 		</td>
 	</tr>
