@@ -41,6 +41,8 @@
 				<option value="16px"><?php echo i18n("pixel", 16); ?></option>
 				<option value="17px"><?php echo i18n("pixel", 17); ?></option>
 				<option value="18px"><?php echo i18n("pixel", 18); ?></option>
+				<option value="20px"><?php echo i18n("pixel", 20); ?></option>
+				<option value="25px"><?php echo i18n("pixel", 25); ?></option>
 			</select>
 		</td>
 	</tr>
