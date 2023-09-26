@@ -1,10 +1,10 @@
 <canvas id="myth"></canvas>
-<?php require_once("templates/logo.php"); ?>
+<?php //require_once("templates/logo.php"); ?>
 <script src="components/user/init.js"></script>
 
 <form id="login" method="post" autocomplete="off">
 	<fieldset>
-		<legend>Atheos <span>IDE</span></legend>
+		<legend>DDSites IDE</legend>
 		<label for="username"><i class="fas fa-user"></i><?php echo i18n("username"); ?></label>
 		<input id="username" type="text" name="username" autofocus="autofocus" autocomplete="current-username">
 
@@ -36,7 +36,7 @@
 		<button><?php echo i18n("login"); ?></button>
 		<button id="show_login_options"><?php echo i18n("more"); ?></button>
 		<button id="hide_login_options" style="display:none;"><?php echo i18n("less"); ?></button>
-		<a id="github_link" href="https://www.github.com/Atheos/Atheos" target="_blank" rel="noreferrer noopener"><?php echo("v" . Common::version()); ?></a>
+		<a id="github_link" href="https://github.com/mclindy/DDSites-IDE" target="_blank" rel="noreferrer noopener"><?php echo("v" . Common::version()); ?></a>
 
 	</fieldset>
 </form>
